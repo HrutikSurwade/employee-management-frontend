@@ -1,0 +1,27 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Explicitly set line endings for scripts
+*.ts      text eol=lf
+*.js      text eol=lf
+*.json    text eol=lf
+*.html    text eol=lf
+*.css     text eol=lf
+*.scss    text eol=lf
+
+# Mark binary files to avoid line ending conversion
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.eot     binary
+*.ttf     binary
+*.woff    binary
+*.woff2   binary
+*.svg     binary
+*.pdf     binary
+
+# Angular CLI configuration files
+angular.json    text eol=lf
+tsconfig*.json  text eol=lf
